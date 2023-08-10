@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video3-practice</title>
+    <style>
+        h3{
+            text-align: center;
+        }
+        label{
+            margin: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h3>Jamal er ma Pitha ghor</h3>
+    <form action="">
+        <label for="fa">Enter your fast name:
+            <input type="text" name="fast name" id="fa" placeholder="Enter your fast name">
+        </label>
+        <label for="laa">Enter your last name:
+            <input type="text" name="last name" id="laa" placeholder="Enter your last name">
+        </label>
+        <label for="mo">Enter your mobile no:
+            <input type="text" name="phone no" id="mo" placeholder="Enter your mobile no">
+        </label>
+        <label for="ga">Enter your gmail:
+            <input type="email" name="gmail" id="ga" placeholder="Enter your gmail">
+        </label>
+        <fieldset>
+            <legend>Choice only one pitha</legend>
+            <label for="citoi">
+                <input type="radio" name="pitha" id="citoi">Citoi
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">Vapa
+            </label>
+            <label for="patisapta">
+                <input type="radio" name="pitha" id="patisapta">patisapta
+            </label>
+            <label for="muthoi">
+                <input type="radio" name="pitha" id="muthoi">Muthoi
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>choice two or more vorta</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">sorisa
+            </label>
+            <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki">sutki
+            </label>
+            <label for="moric">
+                <input type="checkbox" name="vorta" id="moric">moric
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vorta" id="dal">dal
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <label for="dist">Enter your district: 
+            <select name="district" id="dist">
+                <option value="dhaka">dhaka</option>
+                <option value="mym">mym</option>
+                <option value="manikganj">manikganj</option>
+                <option value="sylhet">sylhet</option>
+            </select>
+            <br><br>
+            <label for="uni">Enter your University:
+                <input type="text" name="University" id="uni" list="un">
+                <datalist id="un">
+                    <option value="niter"></option>
+                    <option value="du"></option>
+                    <option value="ju"></option>
+                    <option value="mbstu"></option>
+                </datalist>
+            </label>
+        </label>
+        <br>
+        <input type="reset" value="RESET">
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <iframe src="https://www.prothomalo.com/" width="30%" height="300px" frameborder="0" name="iframe"></iframe>
+    <br><br>
+    <a href="https://www.kalerkantho.com/" target="iframe">click here</a>
+</body>
+</html>
